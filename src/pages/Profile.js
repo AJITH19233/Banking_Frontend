@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import API from "../services/api";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
-import { FiUser, FiMail, FiPhone, FiAlertCircle } from "react-icons/fi";
+import { FiUser, FiMail, FiAlertCircle } from "react-icons/fi";
 
 function Profile() {
   const [user, setUser] = useState(null);
